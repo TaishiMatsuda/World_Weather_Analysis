@@ -1,7 +1,7 @@
 # World_Weather_Analysis
 Module 6 of UofT Data Analytics Boot Camp
 
-Code for Parts 1, 2, and 3 of the challenge.
+## Python Code used for Parts 1, 2, and 3 of the challenge.
 1. Weather_Database.ipynb
 2. Vacation_Search.ipynb
 3. Vacation_Itinerary.ipynb
@@ -15,6 +15,9 @@ snow_city = city_data_df.loc[(city_data_df['Snow inches (last 3hrs)'] > 0)]['Cit
 print(f"{snow_rain_city} cities have recorded rainfall or snow (rain:{rain_city}, snow:{snow_city})")
 ```
 
+For the DataFrame generated, the answer was 
+
+"`80 cities have recorded rainfall or snow (rain:60, snow:20)`"
 
 A “data” folder containing the following CSV files.
 1. WeatherPy_challenge.csv
