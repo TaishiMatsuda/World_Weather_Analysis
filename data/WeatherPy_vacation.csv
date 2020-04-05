@@ -1,4 +1,4 @@
-,City,Country,Max Temp,Current Description,Lat,Lng,Hotel Name
+City_ID,City,Country,Max Temp,Current Description,Lat,Lng,Hotel Name
 5,Karak,JO,86.0,haze,31.17,35.75,Cairwan Hotel
 14,Grand Gaube,MU,82.99,broken clouds,-20.01,57.66,Veranda Paul et Virginie Hotel & Spa
 28,Bambous Virieux,MU,82.99,broken clouds,-20.34,57.76,Casa Tia Villa
