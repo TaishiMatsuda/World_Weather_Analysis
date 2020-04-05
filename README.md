@@ -6,6 +6,16 @@ Code for Parts 1, 2, and 3 of the challenge.
 2. Vacation_Search.ipynb
 3. Vacation_Itinerary.ipynb
 
+For Part 1, question "How many cities have recorded rainfall or snow?" is answered using the following Pandas methods.
+
+```Python
+snow_rain_city = city_data_df.loc[(city_data_df['Rain inches (last 3hrs)'] > 0) | (city_data_df['Snow inches (last 3hrs)'] > 0)]['City'].count()
+rain_city = city_data_df.loc[(city_data_df['Rain inches (last 3hrs)'] > 0)]['City'].count()
+snow_city = city_data_df.loc[(city_data_df['Snow inches (last 3hrs)'] > 0)]['City'].count()
+print(f"{snow_rain_city} cities have recorded rainfall or snow (rain:{rain_city}, snow:{snow_city})")
+```
+
+
 A “data” folder containing the following CSV files.
 1. WeatherPy_challenge.csv
 2. WeatherPy_vacation.csv
